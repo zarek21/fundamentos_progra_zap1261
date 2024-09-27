@@ -28,52 +28,116 @@ int main()
     //Para guardar numeros REALMENTE EXTENSOS 
     double Expoencial = 0;
     //Para guardar letras!!
-    char sexo = ' ';
+    char sexo[30] = "";
     //Para guardar cadenas de caracteres osea muchas letras
-    char nombre[15] = "";
+    char nombre[30] = "";
     std::string name = "";
 
-    //Hablaremos con el usuario y solicitaremos la informacion.
-    std::cout << "Cuentame!! Cuántos años tienes? ";
-    //Para recibir datos del usuario necesitamos utilizar el protocolo de entrada de datos
-    //STD::CIN >> Variable donde se guardaran los datos.
+    // Hablaremos con el usuario y solicitaremos la información.
+    std::cout << "Cuéntame!! ¿Cuántos años tienes? ";
     std::cin >> Edad;
-    std::cout << "Entonces tienes: " << Edad << " años, Super! bienvenido" << std::endl;
-    std::cout << "porfavor ingresa tu altura:";
+
+    std::cout << "Entonces tienes: " << Edad << " años, ¡super! Bienvenido." << std::endl;
+
+    std::cout << "Por favor, ingresa tu altura: ";
     std::cin >> Altura;
-    std::cout << "perfecto,muchas gracias, ahora dime tus calificaciones:";
+
+    std::cout << "Perfecto, muchas gracias. Ahora dime tus calificaciones: ";
     std::cin >> Cali;
-    //Entrada de cadena de texto
-    std::string EntradaDeTextoDeCadena;
-    std::cout << "Porfavor ingresa una Cadena de texto" << std::endl;
-    std::cin >> EntradaDeTextoDeCadena;
-    //Double
+
+    // Entrada de cadena de texto
+    char(30);
+    std::cout << "Por favor, ingresa una cadena de caracteres larga: " << std::endl;
+    std::cin >> nombre;
+    std::cout << "Gracias, tu cadena de caracteres larga es: " << nombre << std::endl;
+
+    // Double
     double Entradadetextodoble;
-    std::cout << "porfavor ingresa un numero largo, como tu ultima relacion rey" << std::endl;
+    std::cout << "Por favor, ingresa un número largo, como tu última relación rey: " << std::endl;
     std::cin >> Entradadetextodoble;
-    //char
-    char Entradadetextocaracter;
-    std::cout << "porfavor ingresa un nombre papi" << std::endl;
-    std::cin >> Entradadetextocaracter;
-    //Char sexo
-    char Entradadetextosexo;
-    std::cout << "porfavor ingresa tu sexo" << std::endl;
-    std::cin >> Entradadetextosexo;
-    //boleano
+
+    // char
+    char(30);
+    std::cout << "Por favor, ingresa un nombre: " << std::endl;
+    std::cin >> nombre;
+    std::cout << "Gracias, tu nombre es: " << nombre << std::endl;
+
+    // Char sexo
+    char(30);
+    std::cout << "Por favor, ingresa tu sexo chulo/a: ";
+    std::cin >> sexo;
+    std::cout << "Gracias, tu sexo es: " << sexo << std::endl;
+
+    // Boleana
     bool Entradadetextoboleano;
-    std::cout << "porfavor ingrea un boleano perro asno (0 o 1)"<< std::endl;
+    std::cout << "Por favor, ingresa un booleano (0 o 1): " << std::endl;
     std::cin >> Entradadetextoboleano;
-    //Hacer una suma de dos datos que ingrese el usuario
-    //Primero Declaramos
+
+    // Hacer una suma de dos datos que ingrese el usuario
     int numero1, numero2;
-    //Segundo solicitamos
-    std::cout << "porfavor ingresa un numero para sumar:"<< std::endl;
+    std::cout << "Por favor, ingresa un número para sumar: " << std::endl;
     std::cin >> numero1;
-    std::cout << "Ingresa el segundo numero a ingresar: "<< std::endl;
+
+    std::cout << "Ingresa el segundo número: " << std::endl;
     std::cin >> numero2;
-    //Tercero recibimos
-   //cuarto operamos o utilizamos
-    std::cout << "Gracias, el resultado de la suma es: " << numero1+ numero2 << std::endl;
+
+    std::cout << "Gracias, el resultado de la suma es: " << (numero1 + numero2) << std::endl;
+
+    // Hacer una resta de dos números
+    int numero3, numero4;
+    std::cout << "Por favor, ingresa un número para restar: " << std::endl;
+    std::cin >> numero3;
+
+    std::cout << "Por favor, ingresa otro número para la resta: " << std::endl;
+    std::cin >> numero4;
+
+    std::cout << "Gracias, el resultado de la resta es: " << (numero3 - numero4) << std::endl;
+
+    // Hacer una multiplicación con dos datos
+    int numero5, numero6;
+    std::cout << "Por favor, ingresa un número para multiplicar: " << std::endl;
+    std::cin >> numero5;
+
+    std::cout << "Por favor, ingresa otro número: " << std::endl;
+    std::cin >> numero6;
+
+    std::cout << "Gracias, el resultado de la multiplicación es: " << (numero5 * numero6) << std::endl;
+
+    // Hacer una división con dos datos
+    int numero7, numero8;
+    std::cout << "Por favor, ingresa dos números para dividir: " << std::endl;
+    std::cin >> numero7;
+
+    std::cout << "Por favor, ingresa el segundo número: " << std::endl;
+    std::cin >> numero8;
+
+    std::cout << "Gracias, el resultado de la división es: " << (numero7 / numero8) << std::endl;
+
+    // Hacer raíz de un número
+    int numero9;
+    std::cout << "Por favor, ingresa un número para sacar su raíz: " << std::endl;
+    std::cin >> numero9;
+
+    std::cout << "Gracias, la raíz del número es: " << sqrt(numero9) << std::endl;
+
+    // Sacar potencia de un número
+    int numero10, numero11;
+    std::cout << "Por favor, ingresa un valor para sacar su potencia: " << std::endl;
+    std::cin >> numero10;
+
+    std::cout << "Ahora ingresa la potencia a la que quieres elevarlo: " << std::endl;
+    std::cin >> numero11;
+
+    std::cout << "Gracias, el valor del número elegido junto con su potencia es: " << pow(numero10, numero11) << std::endl;
+
+    return 0;
+
+
+
+
+
+
+
 
 
 
