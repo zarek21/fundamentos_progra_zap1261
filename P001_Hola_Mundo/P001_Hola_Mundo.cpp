@@ -6,6 +6,12 @@
 //Hablaremos con el usuario mediante
 //STD::COUT << " ";
 //Declaracion de variables y operaciones aritmeticas
+//Sintaxys de decisiones
+//La palabra reservada es IF
+//Lo que este dentro del parentesis IF es verdad 
+//Decisiones Double Sintaxys.
+// if (TRUE) 
+// Else (Falso)
 #include <iostream>
 #include <math.h>
 #include <time.h>
@@ -32,6 +38,7 @@ int main()
     //Para guardar cadenas de caracteres osea muchas letras
     char nombre[30] = "";
     std::string name = "";
+
 
     // Hablaremos con el usuario y solicitaremos la información.
     std::cout << "Cuéntame!! ¿Cuántos años tienes? ";
@@ -130,30 +137,27 @@ int main()
 
     std::cout << "Gracias, el valor del número elegido junto con su potencia es: " << pow(numero10, numero11) << std::endl;
 
-    return 0;
+        // Definir Mayor y Definir Menor
+    {
+        int numero12 = 0, numero13 = 0;
+        std::cout << "Ingresa dos valores: " << std::endl;
+        std::cin >> numero12;
+        std::cin >> numero13;
 
+        if (numero12 > numero13) {
+            std::cout << "El primer valor es mayor que" << numero13 << std::endl;
+        }
+        else if (numero12 < numero13)
+        {
+            std::cout << "El primer valor es menor que" << numero13 << std::endl;
 
-
-
-
-
-
-
-
-
-
+        }
+        else
+        {
+            std::cout << "Ambos valores son iguales" << std::endl;
+        }
+        return 0;
+    }
+   
     
-
-
-
-  
-    
-
-    
-
-
-
-
-
-
 }
