@@ -137,7 +137,7 @@ int main()
 
     std::cout << "Gracias, el valor del número elegido junto con su potencia es: " << pow(numero10, numero11) << std::endl;
 
-        // Definir Mayor y Definir Menor
+    // Definir Mayor y Definir Menor de dos valores
     {
         int numero12 = 0, numero13 = 0;
         std::cout << "Ingresa dos valores: " << std::endl;
@@ -156,8 +156,24 @@ int main()
         {
             std::cout << "Ambos valores son iguales" << std::endl;
         }
-        return 0;
+        
     }
    
+    //Valor Absoluto
+    double numero; // Definimos una variable para almacenar el número
+    double valor_absoluto; // Variable para el valor absoluto
+
+    std::cout << "Ingresa un número: ";
+    std::cin >> numero; 
+
+    // Calcular el valor absoluto
+    if (numero >= 0) {
+        valor_absoluto = numero; // Si es positivo o cero
+    }
+    else {
+        valor_absoluto = numero * (-1); // Si es negativo
+    }
+    std::cout << "El valor absoluto es: " << valor_absoluto << std::endl;
     
+   return 0; 
 }
