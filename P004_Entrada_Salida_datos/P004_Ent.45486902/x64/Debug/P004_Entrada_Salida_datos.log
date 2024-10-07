@@ -1,0 +1,3 @@
+﻿  P004_Entrada_Salida_datos.cpp
+C:\Users\ALUMNO\Desktop\NO_BORRAR_PLIS_ZAP1261\fundamentos_progra_zap1261\P004_Entrada_Salida_datos\P004_Entrada_Salida_datos.cpp(47,15): warning C4244: 'inicializando': conversión de 'double' a 'float'; posible pérdida de datos
+  P004_Entrada_Salida_datos.vcxproj -> C:\Users\ALUMNO\Desktop\NO_BORRAR_PLIS_ZAP1261\fundamentos_progra_zap1261\P004_Entrada_Salida_datos\x64\Debug\P004_Entrada_Salida_datos.exe
