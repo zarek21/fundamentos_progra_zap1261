@@ -14,14 +14,16 @@
 // Else (Falso)
 #include <iostream>
 #include <math.h>
+#include <locale.h>
 #include <time.h>
 #include <locale>//Libreria para cambiar idiomas
 #include <codecvt>//Libreria para combiar codigos de UFT
+using namespace std;
 int main()
 {
     //
-    std::locale::global(std::locale("en_US.UFT-8"));
-    std::cout << "Chucky!\n";
+    setlocale(LC_ALL, "en_US.UFT-8");
+    cout << "Chucky!\n";
     //Inicializarmeos las variables de diferentes tipos
     //Tipo Nombre = Valor asignado de declaracion o inicializacion
     //Para guardar numeros enteros Reales
@@ -156,15 +158,15 @@ int main()
         {
             std::cout << "Ambos valores son iguales" << std::endl;
         }
-        
+
     }
-   
+
     //Valor Absoluto
     double numero; // Definimos una variable para almacenar el número
     double valor_absoluto; // Variable para el valor absoluto
 
     std::cout << "Ingresa un número: ";
-    std::cin >> numero; 
+    std::cin >> numero;
 
     // Calcular el valor absoluto
     if (numero >= 0) {
@@ -174,6 +176,10 @@ int main()
         valor_absoluto = numero * (-1); // Si es negativo
     }
     std::cout << "El valor absoluto es: " << valor_absoluto << std::endl;
-    
-   return 0; 
+
+    return 0;
+
+    cout << "Bienvenido al sistema de gestion de estudiantes" << ::endl;
+
+
 }
