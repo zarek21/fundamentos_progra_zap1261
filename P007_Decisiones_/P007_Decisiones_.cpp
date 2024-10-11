@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
-
+#include <locale>
+  
 int main() {
     int peleadores;
     int sistemaCombate;
+    setlocale(LC_ALL, "en_US.UFT-8");
 
     // Solicitar el número de peleadores
     std::cout << "Bienvenido al sistema de combates.\n";
@@ -60,4 +62,6 @@ int main() {
     }
 
     return 0;
+
+
 }

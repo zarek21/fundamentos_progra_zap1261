@@ -17,7 +17,7 @@ int main() {
 
     //Uso de 2 strings
     std::cout << "Porfavor ingresa tu nombre: ";
-    std::cin >> nombre; //Variable
+    std::cin >> nombre; //Variable 
     std::cout << "Porfavor ingresa tu apellido: ";
     std::cin >> apellido; //Variable
 

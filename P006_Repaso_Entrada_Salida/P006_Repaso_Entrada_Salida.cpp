@@ -1,9 +1,11 @@
 #include <iostream>
 #include <string>
+#include <locale>//Libreria para cambiar idiomas
+
 
 int main() {
     // Realizaremos un login para un juego que se llamará "El prostipirugolfo"
-
+    setlocale(LC_ALL, "en_US.UFT-8");
     // Vamos a definir las variables
     std::string nombrejugador;
     std::string correo;
@@ -49,10 +51,10 @@ int main() {
     std::string dificultad;
 
     // Pedimos al jugador que elija una dificultad
-    std::cout << "Dime papoi, ¿qué dificultad quieres jugar? (Fácil, Media o Hardcore): ";
+    std::cout << "Dime papoi, ¿qué dificultad quieres jugar? (Facil, Media o Hardcore): ";
     std::cin >> dificultad;
 
-    if (dificultad == "Fácil") {
+    if (dificultad == "Facil") {
         std::cout << "Va, eres un noob jajaja." << std::endl;
     }
     else if (dificultad == "Media") {
@@ -69,22 +71,20 @@ int main() {
     // Opciones de personaje
     std::string personaje;
     // Pedimos al jugador que elija su personaje
-    std::cout << "Por favor elige un personaje (El Kevin, Adán, La Roca): " << std::endl;
+    std::cout << "Por favor elige un personaje (El Kevin, Adan, La Roca): " << std::endl;
     std::cin >> personaje;
 
     if (personaje == "El Kevin") {
         std::cout << "Has escogido al Kevin, un personaje intelectual." << std::endl;
     }
-    else if (personaje == "Adán") {
+    else if (personaje == "Adan") {
         std::cout << "Abogado penalista, le gustan los deportes extremos." << std::endl;
     }
     else if (personaje == "La Roca") {
         std::cout << "Atlético con un hámster asesino como mascota." << std::endl;
-    }
-    else {
-        std::cout << "Personaje no reconocido." << std::endl;
         return 1;
     }
+
 
     // Opción escoger tu arma
     std::string arma;

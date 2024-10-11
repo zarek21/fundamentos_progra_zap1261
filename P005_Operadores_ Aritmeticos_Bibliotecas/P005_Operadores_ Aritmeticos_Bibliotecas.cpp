@@ -28,7 +28,7 @@ int main()
 	std::cout << "Suma: " << suma << std::endl;
 	std::cout << "Resta: " << resta << std::endl;
 	std::cout << "Multiplicación: " << multiplicacion << std::endl;
-	std::cout << "División: " << (numero2 != 0 ? division : 0) << std::endl;
+	std::cout << "División: " << (numero1/numero2) << std::endl;
 	std::cout << "Potencia (num1 ^ num2): " << potencia << std::endl;
 
 	return 0;
