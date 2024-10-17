@@ -2,10 +2,11 @@
 
 #include <iostream>
 #include <locale>
+#include <cmath>
 
 int main()
 {
-    std::locale::global(std::locale("es_MX.UTF-8"));
+
     // Hacer una suma de dos datos que ingrese el usuario
     int numero1, numero2;
     std::cout << "Por favor, ingresa un número para sumar: " << std::endl;
