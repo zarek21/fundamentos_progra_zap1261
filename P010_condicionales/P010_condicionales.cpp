@@ -2,7 +2,7 @@
 //Protegiendo al código de recibir solo letras o solo números según sea el caso.
 #include <iostream>
 #include <string>
-#include <cctype> 
+#include <locale> // esta libreria incluye la funcion de isalpha en c++ 
 bool esSoloLetras(const std::string& cadena) {
     // Comprobar si todos los caracteres son letras
     for (char c : cadena) {
