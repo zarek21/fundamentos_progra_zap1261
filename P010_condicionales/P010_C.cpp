@@ -15,6 +15,9 @@ bool esSoloLetras(const std::string& cadena) {
 }
 
 int main() {
+    std::string usuario_g = "JJJ";
+    std::string contrasena_g = "555";
+
     setlocale(LC_ALL, "es_MX.UTF-8");
     std::string usuario;
     std::string contrasena;
@@ -26,7 +29,7 @@ int main() {
     std::getline(std::cin, usuario);
 
 
-    if (esSoloLetras(usuario))
+    if (esSoloLetras (usuario)&&usuario==usuario_g)
     {
         std::cout << "Bienvenido Usuario" << std::endl;
 
@@ -36,7 +39,7 @@ int main() {
 
 
 
-        if (esSoloLetras(contrasena)) {
+        if (esSoloLetras(contrasena)&&contrasena!=contrasena_g) {
             std::cout << "Contraseña incorrecta, solo se aceptan numeros" << std::endl;
         }
         else {

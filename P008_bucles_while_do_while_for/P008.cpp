@@ -9,6 +9,19 @@
 
 int main()
 {
+
+	for (int i = 0; i < 20; i++)
+	{
+		std::cout << "Hola papi";
+
+	}
+
+	int i = 400;
+		while (i<=0)
+		{
+			std::cout << i;
+			i--;
+		}
 	int edad;
 
 	do
@@ -18,11 +31,5 @@ int main()
 	} while (edad != 300); // EL SIMBOLO ! SIGNIFICA NO SEA, ENTONCES ESTA LINEA SE LEE COMO EDAD NO SEA IGUAL A 300.
 	system("pause");
 	system("cls");
-
-	for (int i = 0; i < 20; i++)
-	{
-		std::cout << "Hola papi";
-
-	}
 	return 0;
 }

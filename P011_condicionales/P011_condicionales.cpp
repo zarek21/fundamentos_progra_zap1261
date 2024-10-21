@@ -45,7 +45,7 @@ int main() {
     // Pregunta 4 (nueva)
     std::cout << "¿Cuál equipo ha ganado más Champions League?" << std::endl;
     std::cin.ignore();
-    getline(std::cin, respuesta);
+    getline(std::cin, respuesta );
 
     if (respuesta == "Real Madrid" || respuesta == "real madrid") {
         std::cout << "Correcto, el Real Madrid es el rey de Europa." << std::endl;

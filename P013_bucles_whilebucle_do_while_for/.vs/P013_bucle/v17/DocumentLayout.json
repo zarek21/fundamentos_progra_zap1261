@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucle\\",
+  "WorkspaceRootPath": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucles_whilebucle_do_while_for\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DACF6494-AB97-4885-A4B2-5D1541EFFEC0}|P013_bucle.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucle\\P013_bucle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{DACF6494-AB97-4885-A4B2-5D1541EFFEC0}|P013_bucle.vcxproj|C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucles_whilebucle_do_while_for\\P013_bucle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{DACF6494-AB97-4885-A4B2-5D1541EFFEC0}|P013_bucle.vcxproj|solutionrelative:P013_bucle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "P013_bucle.cpp",
-              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucle\\P013_bucle.cpp",
+              "DocumentMoniker": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucles_whilebucle_do_while_for\\P013_bucle.cpp",
               "RelativeDocumentMoniker": "P013_bucle.cpp",
-              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucle\\P013_bucle.cpp",
-              "RelativeToolTip": "P013_bucle.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "ToolTip": "C:\\Users\\ALUMNO\\Desktop\\NO_BORRAR_PLIS_ZAP1261\\fundamentos_progra_zap1261\\P013_bucles_whilebucle_do_while_for\\P013_bucle.cpp*",
+              "RelativeToolTip": "P013_bucle.cpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-18T14:01:02.308Z",
               "EditorCaption": ""
