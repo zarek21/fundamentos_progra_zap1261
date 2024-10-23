@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\xxx\\",
+  "WorkspaceRootPath": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\P015_batalla_pokemon\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{04DE1457-353C-4772-8FE2-2BE6836AA645}|xxx\\xxx.vcxproj|C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\xxx\\xxx\\xxx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{04DE1457-353C-4772-8FE2-2BE6836AA645}|xxx\\xxx.vcxproj|C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\P015_batalla_pokemon\\xxx\\xxx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{04DE1457-353C-4772-8FE2-2BE6836AA645}|xxx\\xxx.vcxproj|solutionrelative:xxx\\xxx.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "xxx.cpp",
-              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\xxx\\xxx\\xxx.cpp",
+              "DocumentMoniker": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\P015_batalla_pokemon\\xxx\\xxx.cpp",
               "RelativeDocumentMoniker": "xxx\\xxx.cpp",
-              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\xxx\\xxx\\xxx.cpp*",
+              "ToolTip": "C:\\Users\\jorge\\OneDrive\\Escritorio\\fundamentos_progra_zap1261\\P015_batalla_pokemon\\xxx\\xxx.cpp*",
               "RelativeToolTip": "xxx\\xxx.cpp*",
-              "ViewState": "AgIAAE4AAAAAAAAAAAAAAGMAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAF0AAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-21T21:58:23.36Z",
               "EditorCaption": ""

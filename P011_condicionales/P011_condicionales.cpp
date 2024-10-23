@@ -1,68 +1,61 @@
 #include <iostream>
+#include <cstdlib>
 #include <string>
-#include <locale.h>
-
+using namespace std;
 
 int main() {
-    setlocale(LC_ALL, "es_MX.UTF-8");
-    std::string respuesta;
+    string respuesta;
 
-    std::cout << "Hola, bienvenido, tendrás que adivinar 5 preguntas que te haré sobre fútbol." << std::endl;
+    cout << "Adivinare en qué deporte estás pensando." << endl;
 
-    // Pregunta 1
-    std::cout << "¿Quién es mejor, Messi o CR7?" << std::endl;
-    std::cin >> respuesta;
+    cout << "¿En el deporte que piensas se usa balón? (si/no)" << endl;
+    cin >> respuesta;
 
-    if (respuesta == "Messi" || respuesta == "messi") {
-        std::cout << "Es correcto, el GOAT es Messi." << std::endl;
+    if (respuesta == "si") {
+        cout << "¿Juegan con los pies? (si/no)" << endl;
+        cin >> respuesta;
+
+        if (respuesta == "si") {
+            cout << "Estás pensando en fútbol." << endl;
+        }
+        else {
+            cout << "¿El balón es ovalado? (si/no)" << endl;
+            cin >> respuesta;
+
+            if (respuesta == "si") {
+                cout << "Estás pensando en fútbol americano." << endl;
+            }
+            else {
+                cout << "Estás pensando en baloncesto." << endl;
+            }
+        }
     }
     else {
-        std::cout << "No papi, estás en lo incorrecto, bye, bye." << std::endl;
-    }
+        cout << "¿Se juega en el agua? (si/no)" << endl;
+        cin >> respuesta;
 
-    // Pregunta 2
-    std::cout << "¿Quién ganó el último Mundial que se jugó?" << std::endl;
-    std::cin >> respuesta;
+        if (respuesta == "si") {
+            cout << "Estás pensando en natación." << endl;
+        }
+        else {
+            cout << "¿Se usa raqueta? (si/no)" << endl;
+            cin >> respuesta;
 
-    if (respuesta == "Argentina" || respuesta == "argentina") {
-        std::cout << "Estás en lo correcto, hermosa." << std::endl;
-    }
-    else {
-        std::cout << "Es cultura general, nms, pal gulag." << std::endl;
-    }
+            if (respuesta == "si") {
+                cout << "¿La pelota es pequeña? (si/no)" << endl;
+                cin >> respuesta;
 
-    // Pregunta 3
-    std::cout << "¿Quién es mejor, Maradona o Pelé?" << std::endl;
-    std::cin >> respuesta;
-
-    if (respuesta == "Pele" || respuesta == "pele") {
-        std::cout << "Si elegiste Pelé, tqm." << std::endl;
-    }
-    else {
-        std::cout << "Nomás porque es negro, chale." << std::endl;
-    }
-
-    // Pregunta 4 (nueva)
-    std::cout << "¿Cuál equipo ha ganado más Champions League?" << std::endl;
-    std::cin.ignore();
-    getline(std::cin, respuesta );
-
-    if (respuesta == "Real Madrid" || respuesta == "real madrid") {
-        std::cout << "Correcto, el Real Madrid es el rey de Europa." << std::endl;
-    }
-    else {
-        std::cout << "No papi, el Real Madrid es el que más tiene." << std::endl;
-    }
-
-    // Pregunta 5 (nueva)
-    std::cout << "¿En qué país se jugó el Mundial de 2010?" << std::endl;
-    std::cin >> respuesta;
-
-    if (respuesta == "Sudáfrica" || respuesta == "sudáfrica" || respuesta == "Sudafrica" || respuesta == "sudafrica") {
-        std::cout << "Correcto, el Mundial de 2010 fue en Sudáfrica." << std::endl;
-    }
-    else {
-        std::cout << "No, fue en Sudáfrica." << std::endl;
+                if (respuesta == "si") {
+                    cout << "Estás pensando en ping-pong." << endl;
+                }
+                else {
+                    cout << "Estás pensando en tenis." << endl;
+                }
+            }
+            else {
+                cout << "No pude adivinar el deporte." << endl;
+            }
+        }
     }
 
     return 0;
